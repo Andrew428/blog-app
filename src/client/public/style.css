@@ -1,0 +1,39 @@
+html, body{
+    height:100vh !important;
+    width:100vw !important;    
+}
+.input-group,
+.main-div {
+    width:90vw;
+    margin: 30px auto;
+}
+
+input:focus{
+    border: 1px solid grey !important;
+}
+
+.has-error{
+    border: 1px solid red !important;
+}
+
+.has-error:focus{
+    border: 1px solid red !important;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn{
+    margin: 10px;
+}
+
+.delete-post-btn{
+    float:right;
+}
+
+.post-show-content{
+    
+}
